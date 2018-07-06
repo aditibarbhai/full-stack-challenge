@@ -1,0 +1,70 @@
+.review-form-container {
+    width: 75%;
+    margin: auto;
+    padding: 3rem;
+    height: 100vh;
+}
+
+.review-form-container .employee-info {
+    text-align: center;
+}
+
+.review-form-container .employee-info > * {
+    margin-bottom: 1rem;
+}
+
+.image-frame {
+    padding: 1rem;
+    border: 1px solid #dadada;
+    display: inline-block;
+}
+
+.review-action-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 20px;
+}
+
+.review-action-buttons > * {
+    min-width: 48px;
+}
+
+.button-send {
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    border-radius: 3px;
+    border: 0;
+    height: 48px;
+    padding: 0 30px;
+    box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+}
+
+.button-send .icon-send {
+    margin-left: 8px;
+}
+
+.button-save {
+    background: linear-gradient(45deg, #2196F3 30%, #21CBF3 90%);
+    border-radius: 3px;
+    border: 0;
+    height: 48px;
+    padding: 0 30px;
+    box-shadow: 0 3px 5px 2px rgba(33, 203, 243, .3);
+}
+
+.button-save .icon-save {
+    margin-right: 8px;
+}
+
+/*.button-clear-all {*/
+    /*background: #b9c5c7;*/
+    /*border-radius: 3px;*/
+    /*border: 0;*/
+    /*height: 48px;*/
+    /*padding: 0 30px;*/
+    /*box-shadow: 0 3px 5px 2px rgba(33, 203, 243, .3);*/
+/*}*/
+
+.button-clear-all .icon-clear-all {
+    margin-right: 8px;
+}

@@ -1,0 +1,54 @@
+.home-container .banner {
+    width: 100%;
+    background: url('../../assets/images/home-page-banner.jpg') no-repeat;
+    background-size: contain;
+}
+
+/* Smartphones and tablets */
+@media (min-width: 0px) {
+    .home-container {
+        padding: 1.875rem;
+        min-height: 100vh;
+    }
+
+    .home-container .banner {
+        height: 100px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .home-container {
+        padding: 3rem;
+        width: 70vw;
+        margin: auto;
+    }
+
+    .home-container .banner {
+        height: 150px;
+    }
+}
+
+/* EMPLOYEE HOME */
+/*.todo-review-employee {*/
+    /*max-width: 30%;*/
+/*}*/
+
+.todo-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.todo-list a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.todo-list .header {
+    padding-left: 0;
+}
+
+.review-link {
+    display: flex;
+    justify-content: space-between;
+}

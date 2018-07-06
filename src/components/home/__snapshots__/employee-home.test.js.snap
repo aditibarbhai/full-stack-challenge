@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Employee Home tests should render without errors 1`] = `
+<div>
+  <p>
+    A part of creating an open, collaborative workspace is giving and getting good feedback. 
+    <em>
+      Loop
+    </em>
+     gives our employees the opportunity to express their views, compliments, and concerns about the company and their co-workers.  By giving honest, constructive feedback you can help your co-workers excel at their job and help make this a better workplace.
+  </p>
+  <p>
+    <em>
+       You currently have no co-workers requiring feedback 
+    </em>
+  </p>
+</div>
+`;
